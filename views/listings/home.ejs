@@ -1,8 +1,21 @@
 <% layout("/layouts/boilerplate")%>
 <body>
   <h1>Welcome to the Website of Wanderlust</h1>
-  <span> True search for your destinations.!!! </span>
-  <a class="navbar-brand" href="/listings"
-    ><i class="fa-solid fa-compass"></i>See all Listings
-  </a>
+  <br /><br />
+  <span> <b>True search for your destinations.!!! </b></span>
+  <br /><br />
+
+  <div class="offset-3 mt-5">
+    <a style="text-decoration: none" class="navbar-brand" href="/listings">
+      <i
+        class="fa-solid fa-compass fa-spin"
+        style="height: 90px width :auto"
+      ></i>
+    </a>
+    <br />
+    <br />
+    <button class="btn btn-danger" onclick="window.location.href='/listings'">
+      See all Listings
+    </button>
+  </div>
 </body>

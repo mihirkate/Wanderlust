@@ -2,6 +2,17 @@
 
 Wanderlust is a hotel listing platform designed to help users discover and explore various hotels around the world. This repository contains the source code for Wanderlust, and this Readme.md file provides essential information to get started.
 
+Some Previews of the Web-site
+
+![Screenshot 2024-04-09 162838](https://github.com/mihirkate/Wanderlust/assets/97501267/65b817d7-781f-4a18-b142-8fa017ae6b6e)
+![Screenshot 2024-04-09 162909](https://github.com/mihirkate/Wanderlust/assets/97501267/602a18c3-64cd-4b31-9f16-bed5e07406df)
+![Screenshot 2024-04-09 163013](https://github.com/mihirkate/Wanderlust/assets/97501267/ba462fd0-fce8-44dd-a310-71719c6458d9)
+![Screenshot 2024-04-09 163206](https://github.com/mihirkate/Wanderlust/assets/97501267/3a62280a-b400-4c41-a802-c69b2014a7f0)
+![Screenshot 2024-04-09 163312](https://github.com/mihirkate/Wanderlust/assets/97501267/2b83dccc-879f-4a1c-9357-ac787ae5332d)
+![Screenshot 2024-04-09 163330](https://github.com/mihirkate/Wanderlust/assets/97501267/e7b5de0b-8c14-408a-9808-9b08e90bb7c7)
+![Screenshot 2024-04-09 163350](https://github.com/mihirkate/Wanderlust/assets/97501267/1c18da05-9e7f-482f-a5df-c6e800be764b)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)

@@ -1,23 +1,26 @@
+require('dotenv').config();
+
 const mongoose = require("mongoose");
 const initData = require("./data.js");
 const Listing = require("../models/listing.js");
+const connectMongo = require('connect-mongo');
+const session = require('express-session');
 const { sampleListings } = require("./data.js");
-
-const MONGO_URL = "mongodb://localhost:27017/wanderlust";
-
-
-main()
-  .then(() => {
-    console.log("connected to DB");
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+const mongoUrl = process.env.MONGO_URL;
+console.log(mongoUrl);
+main().then(() => {
+  console.log("connected to DB");
+  initDB();
+}).catch((err) => {
+  console.error("Error connecting to DB:", err);
+});
 
 async function main() {
-  await mongoose.connect(MONGO_URL);
+  await mongoose.connect(mongoUrl, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
 }
-
 
 
 const initDB = async () => {
